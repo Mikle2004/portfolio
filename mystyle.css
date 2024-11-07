@@ -1,0 +1,64 @@
+body{
+    background: url(D:/Mitia/Fujimi/fujimi-back.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 12cm;
+    background-position-y: 1cm;
+    background-color: yellow;
+    backface-visibility: hidden;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+.Introduction{
+    margin: 10cm;
+    margin-left: 12cm;
+    margin-top: 0.5cm;
+    font-size: large;
+    color: black;
+}
+li{
+    font-weight: bold;
+}
+img{
+    width: 500px;
+    height: auto;
+    margin: 5px;
+    border: 6px double black;
+
+}
+.boy{
+    width: 50%;
+    float: left;
+    background-color: burlywood;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    border: 6px black;
+}
+.girl{
+    width: 50%;
+    float: right;
+    background-color: aquamarine;
+    height: auto;
+    border: 6px black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    border: 6px black;
+}
+.division{
+    font-size: 1cm;
+    text-decoration: solid underline;
+}
